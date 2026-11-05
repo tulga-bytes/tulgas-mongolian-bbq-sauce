@@ -12,11 +12,4 @@ A plugin with my agent skills.
 
 ## Install
 
-Claude Code:
-
-```text
-/plugin marketplace add tulga-bytes/tulgas-not-so-secret-sauce
-/plugin install tulgas-not-so-secret-sauce@tulgas-not-so-secret-sauce
-```
-
-Or copy a folder from `skills/` into your agent's skills directory.
+Copy a folder from `skills/` into your agent's skills directory.
