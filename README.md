@@ -1,4 +1,4 @@
-# tulgas-not-so-secret-sauce
+# tulgas-mongolian-bbq-sauce
 
 A plugin with my agent skills.
 

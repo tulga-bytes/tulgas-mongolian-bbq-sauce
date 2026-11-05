@@ -1,12 +1,12 @@
 {
-  "name": "tulgas-not-so-secret-sauce",
+  "name": "tulgas-mongolian-bbq-sauce",
   "description": "Tulga's personal agent skills.",
   "owner": {
     "name": "Tulga Tsogtgerel"
   },
   "plugins": [
     {
-      "name": "tulgas-not-so-secret-sauce",
+      "name": "tulgas-mongolian-bbq-sauce",
       "description": "Tulga's agent skills for running and charting Auggie benchmark evals on a dev-box with Daytona sandboxes.",
       "version": "0.1.0",
       "author": {
