@@ -1,0 +1,10 @@
+{
+  "name": "tulgas-not-so-secret-sauce",
+  "version": "0.1.0",
+  "description": "Tulga's agent skills for running and charting Auggie benchmark evals on a dev-box with Daytona sandboxes.",
+  "author": { "name": "Tulga Tsogtgerel" },
+  "homepage": "https://github.com/tulga-bytes/tulgas-not-so-secret-sauce",
+  "repository": "https://github.com/tulga-bytes/tulgas-not-so-secret-sauce",
+  "license": "MIT",
+  "skills": "./skills/"
+}
