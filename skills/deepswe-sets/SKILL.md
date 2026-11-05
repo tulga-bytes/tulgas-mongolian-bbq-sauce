@@ -15,7 +15,7 @@ Run from the bench-maxxing workspace root. The dev-box copy is
 | Full | `benchmarks/deep-swe-1-1` | 113 |
 | 30-task sample | `benchmarks/deep-swe-1-1-30` | 30, `random.Random(42).sample` of the full set |
 | Remainder | `benchmarks/deep-swe-1-1-83` | the other 83 |
-| Small | `benchmarks/deep-swe-1-1-small` | first 10 alphabetically |
+| Small | `benchmarks/deep-swe-1-1-10` | first 10 alphabetically |
 
 `deep-swe-1-1-30` and `deep-swe-1-1-83` do not overlap and together equal the
 full set. All tasks are identical copies, and each `dataset.toml` pins the task

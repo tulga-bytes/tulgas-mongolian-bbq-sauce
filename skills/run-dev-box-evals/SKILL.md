@@ -24,7 +24,7 @@ recommended option.
 
 1. First call, two questions:
    - **Dataset.** Options: `deep-swe-1-1-30` (recommended for experiments),
-     `deep-swe-1-1` (full), `deep-swe-1-1-small`, `deep-swe-1-1-83`. Other
+     `deep-swe-1-1` (full), `deep-swe-1-1-10`, `deep-swe-1-1-83`. Other
      folders under `benchmarks/` can be typed.
    - **Model.** Run `auggie models list --json` locally. Offer up to three
      models with non-empty `selectableEffortLevels`, starting with the ones in
@@ -51,7 +51,7 @@ Dry-run first. Show the user the output, then launch:
 `launch.sh` validates its inputs and checks that `DAYTONA_API_KEY` is set
 (the value is never printed). It names each job
 `<model> <effort> prompt-iteration-4a daytona-10gb <dataset tag>`. The tag is
-`deep-swe-1-1`, `deep-swe-30`, `deep-swe-83`, or `deep-swe-small`. It skips jobs
+`deep-swe-1-1`, `deep-swe-30`, `deep-swe-83`, or `deep-swe-10`. It skips jobs
 and tmux sessions that already exist, and it starts one tmux session per effort.
 All efforts run at the same time. If many trials error with sandbox or rate
 limits, launch the remaining efforts one at a time.

@@ -18,7 +18,7 @@ grep -q '^DAYTONA_API_KEY=' .env || { echo "DAYTONA_API_KEY missing from .env" >
 case $dataset in
   deep-swe-1-1-30) tag=deep-swe-30 ;;
   deep-swe-1-1-83) tag=deep-swe-83 ;;
-  deep-swe-1-1-small) tag=deep-swe-small ;;
+  deep-swe-1-1-10) tag=deep-swe-10 ;;
   *) tag=$dataset ;;
 esac
 ptag=${prompt//_/-}
