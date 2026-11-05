@@ -35,7 +35,7 @@ recommended option.
      or fewer, use `multiSelect: true` with one option per level. With more,
      use single-select presets ("All supported levels", plus two subsets that
      fit the request). The user can type a custom list.
-3. For `deep-swe-1-1`, apply the reuse rule in `AGENTS.md`. When a matching
+3. For `deep-swe-1-1`, apply the reuse rule in the `deepswe-sets` skill. When a matching
    `deep-swe-1-1-30` run exists, launch `deep-swe-1-1-83` instead and say which
    30-task job it completes.
 
