@@ -1,6 +1,6 @@
 {
   "name": "tulgas-mongolian-bbq-sauce",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tulga's agent skills for running and charting Auggie benchmark evals on a dev-box with Daytona sandboxes.",
   "author": { "name": "Tulga Tsogtgerel" },
   "homepage": "https://github.com/tulga-bytes/tulgas-mongolian-bbq-sauce",
