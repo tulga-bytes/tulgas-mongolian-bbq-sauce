@@ -77,16 +77,7 @@ the group `Prompt Iteration 4a on <Model> (Pareto)`. Download into
 
 ## 5. Add to `deepswe-pareto.html`
 
-```bash
-uv run python "$S/pareto_point.py" "jobs/<group>" <litellm model> "prompt-iteration-4a, Daytona"
-```
-
-It imports its cost code from the `effort-sweep-report` skill at
-`~/.agents/skills/effort-sweep-report/`. It prints one `DATA` point per effort,
-with cost computed the same way as the existing points. Pick the LiteLLM price entry listed in the HTML's comment for
-that model. For a new model, find one in `litellm.model_cost`, check it against
-Auggie's reported cost, and add it to the comment. Paste the points into the
-model's entry. Order them by effort, and add a new model entry with an unused
-colour. Open the file and check that no labels overlap.
-
-Only full-set runs (113 tasks) go on the chart.
+Follow the `deepswe-pareto` skill in this plugin. Its
+`pareto.py add` writes the job's full-set points into the chart's JSON block;
+the skill lists the LiteLLM price entry per model and how to pick one for a new
+model.
